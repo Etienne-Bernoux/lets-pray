@@ -886,6 +886,13 @@
     eslint "^4.19.1"
     eslint-plugin-vue "^4.7.1"
 
+"@vue/cli-plugin-router@^4.0.0-alpha.4":
+  version "4.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-router/-/cli-plugin-router-4.0.0-alpha.4.tgz#d369eccfb9e08b6d3527c14fcad367526cd6f20d"
+  integrity sha512-4X1U49oa4SJCp90Pip8784mFXfu6FtVSmX/N0ogi4/gb2rF2JY4zie7M91Xfhl4LqaIWioZ3mBUv9ehWrWBnaw==
+  dependencies:
+    "@vue/cli-shared-utils" "^4.0.0-alpha.4"
+
 "@vue/cli-plugin-unit-mocha@^3.10.0":
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-unit-mocha/-/cli-plugin-unit-mocha-3.10.0.tgz#1ef0c6bd56e2b4f660c2b641444fd7cb208e34cf"
@@ -975,6 +982,24 @@
     request "^2.87.0"
     request-promise-native "^1.0.7"
     semver "^6.0.0"
+    string.prototype.padstart "^3.0.0"
+
+"@vue/cli-shared-utils@^4.0.0-alpha.4":
+  version "4.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.0.0-beta.2.tgz#7d1a8583127bf0c1e66b6021c52ee0c8da0d7ced"
+  integrity sha512-4bc7/x77YeblpbMidjusxcCSZCtvdqbFal1k7rCLnLRXTVRYC9Q2YGXGj9AKgb5ZkH2nSO5/ZWXo/I5R3EaKuA==
+  dependencies:
+    "@hapi/joi" "^15.0.1"
+    chalk "^2.4.1"
+    execa "^1.0.0"
+    launch-editor "^2.2.1"
+    lru-cache "^5.1.1"
+    node-ipc "^9.1.1"
+    open "^6.3.0"
+    ora "^3.4.0"
+    request "^2.87.0"
+    request-promise-native "^1.0.7"
+    semver "^6.1.0"
     string.prototype.padstart "^3.0.0"
 
 "@vue/component-compiler-utils@^2.6.0":
@@ -7246,7 +7271,7 @@ selfsigned@^1.10.4:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
   integrity sha512-Ya52jSX2u7QKghxeoFGpLwCtGlt7j0oY9DYb5apt9nPlJ42ID+ulTXESnt/qAQcoSERyZ5sl3LDIOw0nAn/5DA==
 
-semver@^6.0.0, semver@^6.1.1:
+semver@^6.0.0, semver@^6.1.0, semver@^6.1.1:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
