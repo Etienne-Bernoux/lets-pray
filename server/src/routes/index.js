@@ -1,8 +1,9 @@
-// routes/index.js
-import express from 'express';
-const router = express.Router();
-/* GET home page. */
-router.get('/', function(req, res, next) {
-    res.render('index', { title: 'Express' });
-});
-export default router;
+import express from 'express'
+import { getOneSchoolBoy } from '../domain/schoolBoy/getOneSchoolBoy'
+
+const router = express.Router()
+router.get('/', async function (req, res, next) {
+  const schoolBoys = await getOneSchoolBoy()
+  res.send(JSON.stringify(schoolBoys))
+})
+export default router
