@@ -12,7 +12,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
     "@fortawesome/free-solid-svg-icons": "^5.10.1",
     "@fortawesome/vue-fontawesome": "^0.1.6",
-    "auth0-js": "^9.11.3",
+    "auth0-js": "^9.13.2",
     "core-js": "^2.6.5",
     "highlight.js": "^9.15.9",
     "node-sass": "^4.12.0",
